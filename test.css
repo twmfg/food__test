@@ -621,7 +621,7 @@ footer {
     box-shadow: none !important;
   }
   .footer__inner-2 .socials {
-    gap: 0.5em !important;
+    gap: 0em !important;
   }
   .my__skills-inner section {
     flex-basis: 100%;
