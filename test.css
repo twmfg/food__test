@@ -577,6 +577,7 @@ footer {
   }
   .our__resturant {
     min-height:400px !important;
+    border-radius: 0 !important;
   }
   .check__our__blog header h1 {
     font-size: 2em;
