@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: "Fira Code";
+}
+p {
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+}
+
+.section__1 {
+  background-image: linear-gradient(
+    to top,
+    white,
+    lightblue,
+    lightcyan,
+    lightgrey
+  );
+  padding: 4em 10%;
+}
+
+.section__1 nav {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.076);
+}
+
+.section__1 nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2.7em;
+}
+
+.section__1 nav a {
+  font-family: "Fira Code";
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #000;
+  transition: 0.2s ease-in-out;
+}
+.section__1 nav a:hover {
+  padding-bottom: 3px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.023);
+  color: rgba(0, 0, 0, 0.508);
+}
+
+.section__1 main {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.864),
+      rgba(0, 0, 0, 0.119)
+    ),
+    url(./img/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 2em;
+  padding: 3em 7em;
+  margin: 2.7em 0;
+  color: #edf;
+}
+
+.section__1 main .business-lunch {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 166, 0, 0.641);
+  color: #000;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.business-lunch h1 {
+  font-size: 4.5em;
+}
+
+.business-lunch p {
+  text-align: center;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-family: "Segoe UI";
+}
+
+.section__1 main h2 {
+  text-transform: uppercase;
+  margin: 1em 0;
+  color: #fff;
+}
+
+.section__1 main h1 {
+  font-size: 5em;
+}
+
+.section__1 main a {
+  border: none;
+  border-radius: 100px;
+  background-image: linear-gradient(rgb(156, 196, 225), rgb(208, 158, 92));
+  font-size: 2.5em;
+  padding: 0.5em 1.7em;
+  margin-top: 2.3em;
+  font-weight: bold;
+  /* ================== */
+  display: block;
+  width: 500px;
+  font-family: "Fira Code";
+  color: #000;
+  transition: 0.2s ease-in;
+}
+
+.section__1 main a:hover {
+  background-color: black;
+  color: #edf;
+}
+
+.view-our-menu {
+  margin: 8em 0;
+}
+
+.view-our-menu header {
+  display: flex;
+  justify-content: center;
+}
+
+.view-our-menu header h1 {
+  font-size: 4em;
+  color: rgb(101, 170, 197);
+  -webkit-text-stroke: 1px rgba(255, 68, 0, 0.432);
+  text-shadow: 0 10px rgba(0, 0, 0, 0.076);
+}
+
+.view-our-menu-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.view_img {
+  width: 100%;
+  height: 400px;
+  border-radius: 2em;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s ease-in;
+  border: 5px dotted rgba(173, 216, 230, 0.272);
+  opacity: 0.5;
+}
+
+.view_img:hover {
+  opacity: 1;
+  transform: scale(1.3, 1.3);
+}
+
+.view_img_1 {
+  background-image: url(./img/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+}
+.view_img_2 {
+  background-image: url(./img/eaters-collective-pLKgCsBOiw4-unsplash.jpg);
+}
+.view_img_3 {
+  background-image: url(./img/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg);
+}
+.view_img_4 {
+  background-image: url(./img/victoria-shes-UC0HZdUitWY-unsplash.jpg);
+}
+
+.view-our-menu-lists section {
+  width: 23%;
+}
+
+.view-our-menu-lists h2 {
+  text-transform: uppercase;
+  margin: 1em 0 2em 0; /* top right bottom left */
+  font-size: 2em;
+  color: rgb(2, 128, 177);
+}
+
+.view-our-menu-lists a {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: orange;
+  color: #fff;
+  padding: 0.7em 3em;
+  border-radius: 100px;
+  transition: 0.3s ease-in;
+}
+
+.view-our-menu-lists a:hover {
+  background-color: rgb(0, 213, 255);
+}
+
+.keep_up_to_date {
+  background-color: rgba(45, 230, 67, 0.103);
+  padding: 5rem 0 0 0;
+}
+
+.keep_up_to_date_inner {
+  background-color: #62bcc62b;
+  padding: 3em 0;
+  width: 70%;
+  margin: auto;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.keep_up_to_date_inner h1 {
+  font-size: 3em;
+  color: rgb(93, 93, 155);
+}
+.keep_up_to_date_inner h2 {
+  font-size: 1.8em;
+  color: rgb(0, 1, 8);
+}
+
+.our__resturant {
+  min-height: 800px;
+  background-image: linear-gradient(
+      to right,
+      rgb(1, 64, 54),
+      rgba(0, 0, 0, 0.798)
+    ),
+    url(./img/victoria-shes-UC0HZdUitWY-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 3em;
+  margin: 5em 0;
+  color: #fff;
+  padding-top: 10em;
+  padding-left: 5em;
+}
+
+.our__resturant h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  border-bottom: 1px solid orange;
+  padding-bottom: 0.5em;
+  width: 30%;
+}
+.our__resturant h1 {
+  font-size: 5em;
+  margin: 1em 0;
+}
+
+.our__resturant a {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: orangered;
+  color: #fff;
+  padding: 0.7em 3em;
+  border-radius: 100px;
+  transition: 0.3s ease-in;
+}
+
+.check__our__blog header {
+  display: flex;
+  justify-content: center;
+}
+
+.check__our__blog header h1 {
+  font-size: 4em;
+  text-shadow: 0 10px rgba(0, 0, 0, 0.076);
+  color: rgb(101, 170, 197);
+  -webkit-text-stroke: 1px rgba(255, 68, 0, 0.432);
+}
+
+.check__our__blog-inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 4em 0;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.check__our__blog-inner section {
+  background-color: #ffffff45;
+  padding: 5em 2em;
+  border-radius: 7px;
+  box-shadow: 0 2px 1em rgba(0, 0, 0, 0.117);
+}
+
+.check__our__blog-inner section :not(a) {
+  text-align: center;
+}
+
+.check__our__blog-inner section h3 {
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+
+.check__our__blog-inner section p {
+  width: 80%;
+  margin: 2em auto;
+  font-size: 1.1em;
+  color: grey;
+}
+
+.check__our__blog-inner section a:nth-child(4) {
+  background-color: orange;
+  font-size: 1.2em;
+  padding: 0.8em 2.2em;
+  border-radius: 100px;
+}
+
+.our__resturant-2-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.574),
+      rgba(0, 0, 0, 0.915)
+    ),
+    url(./img/victoria-shes-UC0HZdUitWY-unsplash.jpg);
+}
+
+/* ******************* */
+.projects__images {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding: 3em 15%;
+  background-image: linear-gradient(
+    rgba(135, 207, 235, 0),
+    rgba(201, 225, 233, 0.125)
+  );
+}
+
+.project_images {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 1em rgba(50, 50, 50, 0.18);
+}
+
+.project_images-1 {
+  background-image: url(./img/eaters-collective-pLKgCsBOiw4-unsplash.jpg);
+}
+.project_images-2 {
+  background-image: url(./img/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+}
+.project_images-3 {
+  background-image: url(./img/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg);
+}
+.project_images-4 {
+  background-image: url(./img/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg);
+}
+.project_images-5 {
+  background-image: url(./img/eaters-collective-pLKgCsBOiw4-unsplash.jpg);
+}
+.project_images-6 {
+  background-image: url(./img/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+}
+
+.pro1,
+.pro4,
+.pro6 {
+  width: 30%;
+}
+.pro2,
+.pro3,
+.pro5 {
+  width: 65%;
+}
+/* ******************* */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+.my__skills {
+  background-color: #02243ef0;
+  color: #edf;
+  padding: 6em 20%;
+}
+
+.my__skills header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+  align-items: center;
+}
+
+.my__skills header h1 {
+  font-size: 3.5em;
+  text-transform: capitalize;
+  font-family: cursive !important;
+  letter-spacing: 5px;
+  color: rgba(230, 230, 250, 0.521);
+}
+
+.my__skills header p {
+  font-size: 1.3em;
+  margin: 1.5em 0;
+  width: 70%;
+  text-align: center;
+  line-height: 1.5;
+  color: grey;
+}
+
+.my__skills-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my__skills-inner section {
+  flex-basis: 45%;
+  margin-bottom: 1.5em;
+}
+
+.my__skills-inner section div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.7em;
+}
+.my__skills-inner section p {
+  color: rgb(162, 162, 241);
+}
+
+.my__skills-inner section .container {
+  width: 100%;
+  background-color: rgba(113, 251, 246, 0.187);
+  border-radius: 100px;
+}
+
+.photoshop_percentage-ratings {
+  width: 90%;
+}
+.jQuery_percentage-ratings {
+  width: 85%;
+}
+.html5_percentage-ratings {
+  width: 95%;
+}
+.css3_percentage-ratings {
+  width: 50%;
+}
+.wordpress_percentage-ratings {
+  width: 70%;
+}
+.seo_percentage-ratings {
+  width: 80%;
+}
+
+.my__skills-inner section div:nth-child(2) > div {
+  background-color: skyblue;
+  padding: 6px;
+  border-radius: 100px;
+}
+
+.my__skills-inner section .photoshop {
+  width: 90%;
+}
+.my__skills-inner section .html5 {
+  width: 95%;
+}
+.my__skills-inner section .jQuery {
+  width: 85%;
+}
+.my__skills-inner section .css3 {
+  width: 50%;
+}
+.my__skills-inner section .wordpress {
+  width: 70%;
+}
+.my__skills-inner section .seo {
+  width: 80%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+footer {
+  padding: 3.5em 12%;
+  background-image: linear-gradient(
+    rgba(135, 207, 235, 0),
+    rgba(173, 216, 230, 0.496)
+  );
+  border-top: 10px dashed rgba(128, 128, 128, 0.129);
+}
+
+.footer__inner-1 {
+  margin-bottom: 2.5em;
+  color: orangered;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-variant: small-caps;
+}
+
+.footer__inner-1 a {
+  color: rgb(110, 95, 127);
+}
+.footer__inner-1 a:hover {
+  color: rgb(148, 85, 215);
+  text-decoration: underline;
+}
+
+.footer__inner-1 h3 {
+  margin-bottom: 0.5em;
+}
+
+.footer__inner-2 a {
+  color: rgb(20, 176, 228);
+}
+
+.footer__inner-2 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.footer__inner-2 .socials {
+  font-size: 2.5em;
+  display: flex;
+  gap: 2em;
+  margin: 0.5em 0;
+}
+
+.bars {
+  display: none;
+}
+
+@media (max-width: 1610px) {
+  .view-our-menu-lists {
+    flex-direction: column;
+  }
+  .view-our-menu-lists section {
+    width: 100%;
+    margin-bottom: 2.5em;
+  }
+  .section__1 main a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1370px) {
+  .check__our__blog-inner {
+    flex-direction: column;
+  }
+  .our__resturant h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 945px) {
+  .section__1 main .business-lunch h1 {
+    font-size: 2.1em;
+  }
+  .section__1 main h1 {
+    font-size: 2.3em;
+  }
+  .section__1 main h2 {
+    font-size: 1em;
+  }
+  .section__1 main a {
+    font-size: 1.3em;
+  }
+  .keep_up_to_date_inner h1 {
+    font-size: 1.5em;
+  }
+  .keep_up_to_date_inner h2 {
+    font-size: 1em;
+  }
+  .our__resturant h3 {
+    font-size: 1em;
+  }
+  .our__resturant {
+    min-height:400px !important;
+  }
+  .check__our__blog header h1 {
+    font-size: 2em;
+  }
+  .our__resturant h1 {
+    font-size: 2em;
+  }
+  .pro1,
+  .pro3,
+  .pro5 {
+    width: 100% !important;
+  }
+  .pro2,
+  .pro4,
+  .pro6 {
+    width: 80% !important;
+  }
+  .footer__inner-1 {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .section__1 main {
+    padding: 2.5em 3em;
+  }
+  .view-our-menu header h1 {
+    font-size: 2em;
+  }
+
+  .bars {
+    display: block !important;
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    font-size: 2.5em;
+    padding-right: 1.5em;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    color: #edf;
+  }
+  nav {
+    box-shadow: none !important;
+  }
+  .footer__inner-2 .socials {
+    gap: 0.5em !important;
+  }
+  .my__skills-inner section {
+    flex-basis: 100%;
+  }
+  .section__1 main .business-lunch {
+    width: 130px;
+    height: 130px;
+  }
+  nav {
+    padding: 0 !important;
+  }
+  a {
+    font-size: 1em !important;
+    padding: 12px 34px !important;
+  }
+  .keep_up_to_date_inner h1 {
+    font-size: 0.7em !important;
+  }
+  .my__skills header p {
+    width: 100% !important;
+  }
+  .check__our__blog header h1 {
+    font-size: 1.3em !important;
+  }
+  .our__resturant h1 {
+    font-size: 1.1em !important;
+  }
+  .keep_up_to_date_inner {
+    width: 85%;
+  }
+  .our__resturant {
+    padding-left: 1em !important;
+  }
+
+  nav ul {
+    width: 100%;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(lightblue, lightgreen);
+    padding: 3em 0;
+    top: 70px;
+    left: 100%;
+    height: 100vh;
+    transition: 0.3s ease;
+    z-index: 1000;
+  }
+
+  .active {
+    left: 0;
+  }
+}
