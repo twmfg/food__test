@@ -622,6 +622,8 @@ footer {
   }
   .footer__inner-2 .socials {
     gap: 0em !important;
+    flex-wrap: wrap !important;
+
   }
   .my__skills-inner section {
     flex-basis: 100%;
